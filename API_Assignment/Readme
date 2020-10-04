@@ -1,0 +1,35 @@
+Step 1- 
+Take UI_API_Assignment Project from the given dir.
+Open your Ecplise
+select file and import
+import as a Maven project
+wait until Maven download dependency
+click on project update the project.
+There should be no error in the project.
+
+Step 2: How to run the project.
+Way1:- from test runner class.
+goto \src\test\java\co\id\runner
+open runner class and run as Junit
+
+Way2:- From POM.xml
+open pom.xml >> right click>> run as >> Maven Test
+it will run both of the runner class.
+
+Way 3:- From command
+goto the project location 
+open the cmd
+write mvm clean install
+
+
+Way 4:- From Feature file
+open Cucumber feature file
+run as feature file.
+
+Step 3: result Verification
+goto the target folder >> test1/test2>>cucumber-parallel>>cucumber.html>>index.html
+open index.html into web browser.
+
+Enjoy..
+
+
